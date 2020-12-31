@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --primary-color:#7C3AED;
-    --dark-gray:#6B7280;
+    --primary-color: #7C3AED;
+    --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
 }
 
 body {
@@ -73,7 +74,7 @@ hr {
     text-align: right;
 }
 
-.navigation .link { 
+.navigation .link {
     color: white;
 }
 
@@ -102,4 +103,22 @@ hr {
     color: var(--primary-color);
 }
 
-/** 
+/** Section **/
+
+
+.section {
+    padding: 2rem;
+    
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.offwhite-section {
+    background-color: var(--off-white);
+}
+
+
+/** footer **/ 
+
